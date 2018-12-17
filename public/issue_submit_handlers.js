@@ -8,7 +8,7 @@ $(function () {
         success: function (data) {
             var issues = [];
             data.forEach(function (ele) {
-                console.log(ele);
+                //                console.log(ele);
                 var openstatus;
                 (ele.open) ? openstatus = 'open': openstatus = 'closed';
                 var single = [
@@ -55,7 +55,7 @@ $(function () {
                 open: false
             },
             success: function (data) {
-                alert(data);
+                //                alert(data);
                 window.location.reload(true);
             }
         });
@@ -70,7 +70,7 @@ $(function () {
                 _id: $(this).attr('id')
             },
             success: function (data) {
-                alert(data);
+                //                alert(data);
                 window.location.reload(true);
             }
         });
