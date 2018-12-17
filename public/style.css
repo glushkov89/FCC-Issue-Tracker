@@ -49,3 +49,13 @@ h2 .form_header {
 #testui {
   margin-left: 5%
 }
+
+#issue_text {
+  width: 320px;
+  height: 100px
+}
+
+#issue_title {
+  width: 320px;
+  margin-bottom: 3px
+}
