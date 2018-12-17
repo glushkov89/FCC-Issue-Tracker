@@ -7,6 +7,23 @@ body {
   padding: 10px;
 }
 
+hr {
+  margin: 50px
+}
+
+hr .bottom {
+  margin-top: 200px
+}
+
+input,
+textarea {
+  width: 100px
+}
+
+h2 .form_header {
+  text-align: left
+}
+
 .issue {
   margin: 20px;
   padding: 5px;
@@ -20,4 +37,15 @@ body {
 
 .id {
   font-size: 10.5px;
+}
+
+/****ID`s***/
+
+#userstories {
+  margin-left: 5%;
+  margin-top: 5%
+}
+
+#testui {
+  margin-left: 5%
 }
